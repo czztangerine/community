@@ -5,6 +5,8 @@ import org.apache.ibatis.annotations.*;
 
 //注解声明数据访问对象，需要容器管理
 @Mapper
+//声明不建议使用，即废弃掉
+@Deprecated
 public interface LoginTicketMapper {
     //通过注解声明方法需要什么sql
     @Insert({
